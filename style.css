@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    text-align: center;
+    
+
+}
+#search
+{
+  height: 30px;  
+  width: 300px; 
+  border-radius: 40px;
+  border: none;
+}
+.searchLogo
+{
+    position: relative;
+    top: 10px;
+    right: 40px;
+    border-left: 1px solid black;
+}
+.navBar
+{
+    height: 80px;
+    background-color: rgb(191, 187, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid rgb(3, 165, 187) ; */
+    
+}
+li:hover
+{
+ background-color: rgb(3, 165, 187);
+ cursor: pointer;
+ border-radius: 30px;
+ transition: 0.7s;
+ 
+}
+ul
+{
+    margin-right: 100px;
+    display: flex;
+    
+}
+li
+{
+    list-style: none;
+    margin-left: 90px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+.btn
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: 4px solid black; */
+    margin: 30px;
+    
+
+}
+h2
+{
+    position: relative;
+    top:15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+span
+{   
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+   position: relative;
+   z-index: 1;
+   top: 240px;
+}
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 500px;
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-30px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 30px;
+}
+.red
+{
+    background-color: rgb(197, 96, 96);
+}
+.blue
+{
+    background-color: rgb(108, 108, 202);
+}
+.green
+{
+    background-color: rgb(99, 201, 99);
+}
+.yellow
+{
+    background-color: rgb(216, 216, 97);
+}
+/* .flash
+{
+    background-color:white;
+}
+.userflash
+{
+    background-color:rgb(0, 224, 0);
+} */
+
+.redFlash
+{
+    background-color: red;
+}
+.blueFlash
+{
+    background-color: blue;
+}
+.greenFlash
+{
+    background-color: green;
+}
+.yellowFlash
+{
+    background-color: yellow;
+}
